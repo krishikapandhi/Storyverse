@@ -75,25 +75,7 @@
   <h2>API Reference</h2>
     <p>Storyverse fetches and displays stories through a RESTful API. For detailed API documentation, please visit our <a href="https://your-api-documentation-link.com">API Documentation</a>.</p>
 
-<h2>Contributing</h2>
-    <ol>
-        <li>Fork the Repository
-           <p>Click the "Fork" button in the top right of the repository.</p>
-        </li>
-        <li>Create a New Branch
-           <pre>
-              git checkout -b feature-name
-           </pre>
-        </li>
-        <li>Implement Your Changes
-           <p>Develop and test your changes.</p>
-        </li>
-        <li>Create a Pull Request
-           <p>Push your branch to your forked repository and create a pull request to the main repository.</p>
-        </li>
-    </ol>
 
-  <h2>License</h2>
-    <p>Storyverse is open-source software distributed under the terms of the <a href="LICENSE">MIT License</a>.</p>
+ <p>Storyverse is open-source software distributed under the terms of the <a href="LICENSE">MIT License</a>.</p>
 </body>
 </html>
