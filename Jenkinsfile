@@ -9,12 +9,15 @@ pipeline {
 
     stages {
         stage('Checkout') {
-            steps {
+            steps{
+             timeout(time: 10, unit: 'MINUTES')
+            {
                 // Checkout the code from GitHub
-                git branch: 'main', url: 'https://github.com/krishikapandhi/html-portfolio.git', changelog: false, poll: false, credentialsId: 'your-credentials-id', timeout: 10 // Timeout in minutes
+                git branch: 'main', url: 'https://github.com/krishikapandhi/html-portfolio.git', changelog: false, poll: false, credentialsId: 'your-credentials-id' 
 
             }
-        }
+         }
+      }
         stage('Check Node Version') {
                 steps {
                     bat 'node -v' // This should print the Node.js version
