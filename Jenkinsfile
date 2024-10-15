@@ -11,7 +11,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from GitHub
-                git branch: 'main', url: 'https://github.com/krishikapandhi/Storyverse.git'
+                git branch: 'main', url: 'https://github.com/krishikapandhi/html-portfolio.git', changelog: false, poll: false, credentialsId: 'your-credentials-id', timeout: 10 // Timeout in minutes
+
             }
         }
         stage('Check Node Version') {
